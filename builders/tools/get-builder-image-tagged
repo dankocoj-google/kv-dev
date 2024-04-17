@@ -19,7 +19,7 @@
 
 set -o pipefail
 set -o errexit
-
+set -x 
 trap _cleanup EXIT
 function _cleanup() {
   declare -r -i status=$?
