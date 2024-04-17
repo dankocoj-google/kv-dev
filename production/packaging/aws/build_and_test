@@ -16,6 +16,7 @@
 
 set -o pipefail
 set -o errexit
+set -x 
 
 START=$(date +%s)
 readonly START
